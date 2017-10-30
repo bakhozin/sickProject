@@ -1,0 +1,11 @@
+/TheProject/Member/MainPage.do com.sist.member.controller.MainPageController
+/TheProject/Member/MemberAdd.do com.sist.member.controller.memberAddController
+/TheProject/Member/MemberAddProc.do com.sist.member.controller.memberAddProcController
+/TheProject/Member/MyPage.do com.sist.member.controller.MyPageController
+/TheProject/Member/MemberLogin.do com.sist.member.controller.MemberLoginController
+/TheProject/Member/MemberLoginProc.do com.sist.member.controller.MemberLoginProcController
+/TheProject/Member/MemberEdit.do com.sist.member.controller.MemberEditController
+/TheProject/Member/MemberEditProc.do com.sist.member.controller.MemberEditProcController
+/TheProject/Book/BookSearch.do com.sist.book.controller.BookSearchController
+/TheProject/Book/BookSearchProc.do com.sist.book.controller.BookSearchProcController
+/TheProject/Book/BookMain.do com.sist.book.controller.BookMainController

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+  
+	<servlet>
+		<servlet-name>noticeList</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeList</servlet-name>
+		<url-pattern>/customer/notice.do</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>noticeDetail</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeDetailController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeDetail</servlet-name>
+		<url-pattern>/customer/noticeDetail.do</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>noticeEdit</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeEditController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeEdit</servlet-name>
+		<url-pattern>/customer/noticeEdit.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>noticeEditProc</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeEditProcController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeEditProc</servlet-name>
+		<url-pattern>/customer/noticeEditProc.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>noticeDelProc</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeDelProcController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeDelProc</servlet-name>
+		<url-pattern>/customer/noticeDelProc.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>noticeReg</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeRegController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeReg</servlet-name>
+		<url-pattern>/customer/noticeReg.do</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>noticeRegProc</servlet-name>
+		<servlet-class>com.sist.customer.controller.NoticeRegProcController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>noticeRegProc</servlet-name>
+		<url-pattern>/customer/noticeRegProc.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.sist.joinus.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/joinus/login.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginProc</servlet-name>
+		<servlet-class>com.sist.joinus.controller.LoginProcController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginProc</servlet-name>
+		<url-pattern>/joinus/loginProc.do</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
+
+
